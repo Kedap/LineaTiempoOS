@@ -6,7 +6,7 @@ import javax.swing.*;
 public class Main {
 
     public static void main(String[] args) {
-        CSVParser convertidor = new CSVParser("src/main/resources/datos.csv");
+        CSVParser convertidor = new CSVParser("src/main/resources/otro.csv");
         List<Hito> datos = convertidor.obtenerDatos();
 
         SwingUtilities.invokeLater(() -> {
